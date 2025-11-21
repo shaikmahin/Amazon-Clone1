@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;/* flex dene se saari cheeze same line aana shuru hojati hai*/
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("amazon.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+
+}
+.border {
+    border: 2px solid transparent;/* transparent means uska koyi color nahi h jo background ka color hoga wohi iska hoga*/
+
+}
+.border:hover {
+    border: 2px solid white;/* as i hover means amazon me jake cursor rakhe tho wo  logo ke bazu hover effect aayega white*/
+}
+
+/**box2 **/
+.add-first {
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+
+
+.add-sec {
+font-size: 1rem;
+margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+
+/** box3 ko style krna h**/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(255, 192, 76);
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.Search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.Search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color:#febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+/**box4**/
+
+span {
+    font-size: 0.7rem;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*box6 */
+
+.nav-card i { /** i is the selectors combination and  jo mujhe aise styling add krni ho ,jo ushi icon me apply ho  ,jo mere nav- card class ke ander aaye we write **/
+    font-size:30px 
+}
+
+.nav-card {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel*/
+.panel {
+    height: 40px;
+    background-color: #222f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/*hero section*/
+.hero-section {
+    background-image: url("../hero.jpg");/* image is not visible because we have not given any height and width to it*/
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+
+.hero-msg a {
+  color: #007185;
+}
+
+/* shop section*/
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;/* ager her jagha evenly space hona h tho justify content space evenly use krna*/
+background-color: #fc8989;
+background-size: auto;
+}
+.box {
+   /* border: 2px solid black;*/
+    height: 450px;
+    width: 23%;
+    background-color: #e0abb0;
+    padding: 20px 0px 15px;
+   margin-top: 5px;
+}
+
+.box-img {
+  height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p {
+    color: #007185;
+}
+.box3{
+    font-weight: 900;
+}
+.box4{
+    font-weight: 900;
+
+}
+
+/* footer*/
+footer {
+    margin-top: 15px;
+
+}
+
+
+.foot-panel1{
+    background-color:rgb(55, 71, 90);
+color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.85rem;
+
+}
+.foot-panel2 {
+    background-color:#222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul {
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3 {
+    background-color:rgb(55, 71, 90);
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+     background-image: url("amazon.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+    height: 80px;
+    /*display: flex; /* text to center dene ke liye we use*/
+   /* justify-content: center;
+    align-items: center;*/
+}
+.pages {
+    padding-top: 25px;
+
+}
+
+.copyright {
+    padding-top: 5px;   
+}
+
